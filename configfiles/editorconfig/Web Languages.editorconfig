@@ -1,3 +1,4 @@
+# DESCRIPTION Sets scripts, styles, and markup to use 2-space indentation
 # scripts
 [*.{js,cjs,mjs,ts,jsx,tsx,vue,svelte}]
 indent_style = space

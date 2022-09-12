@@ -1,3 +1,4 @@
+# DESCRIPTION Standardized all files to LF line endings, UTF-8 charset, no trailing whitespace and a final newline, and adds reasonable defaults files common to multiple types of projects
 root = true
 
 [*]

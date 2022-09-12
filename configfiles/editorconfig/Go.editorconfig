@@ -1,2 +1,3 @@
+# DESCRIPTION Configures Go files to the recommended format
 [*.go]
 indent_style = tab

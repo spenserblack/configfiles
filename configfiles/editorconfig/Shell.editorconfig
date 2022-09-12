@@ -1,2 +1,3 @@
+# DESCRIPTION Sets shell scripts to use tabs
 [*.{sh,bash,fish}]
 indent_style = tab
