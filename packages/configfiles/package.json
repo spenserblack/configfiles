@@ -4,6 +4,11 @@
   "description": "These are project-specific config files that are commonly repeated among repositories",
   "main": "index.js",
   "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "configfiles.json"
+  ],
   "scripts": {
     "prepublishOnly": "node ../../scripts/to-json.js > configfiles.json",
     "test": "echo \"Error: no test specified\" && exit 1"
