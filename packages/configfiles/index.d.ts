@@ -5,3 +5,5 @@ export declare type Data = {
 };
 
 export declare const data: Data;
+
+export declare function main(): Promise<void>;

@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "These are project-specific config files that are commonly repeated among repositories",
   "main": "index.js",
+  "bin": {
+    "configfiles": "bin/configfiles.js"
+  },
   "types": "index.d.ts",
   "files": [
     "index.js",
@@ -22,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/spenserblack/configfiles/issues"
   },
-  "homepage": "https://github.com/spenserblack/configfiles#readme"
+  "homepage": "https://github.com/spenserblack/configfiles#readme",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
 }
