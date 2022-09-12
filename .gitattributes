@@ -1,6 +1,7 @@
 /configfiles/editorconfig/*.editorconfig linguist-language=EditorConfig
-/configfiles/npmignore/*.npmignore linguist-language=Ignore-List
-/configfiles/gitignore/*.gitignore linguist-language=Ignore-List
-/configfiles/gitattributes/*.gitattributes linguist-language=Git-Attributes
 /configfiles/flake8/*.flake8 linguist-language=INI
+/configfiles/gitattributes/*.gitattributes linguist-language=Git-Attributes
+/configfiles/gitignore/*.gitignore linguist-language=Ignore-List
+/configfiles/npmignore/*.npmignore linguist-language=Ignore-List
+
 /configfiles/**/* linguist-detectable
