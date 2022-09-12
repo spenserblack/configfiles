@@ -1,0 +1,2 @@
+[*.{sh,bash,fish}]
+indent_style = tab

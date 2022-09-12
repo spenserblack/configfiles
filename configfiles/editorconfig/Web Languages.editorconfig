@@ -1,0 +1,14 @@
+# scripts
+[*.{js,cjs,mjs,ts,jsx,tsx,vue,svelte}]
+indent_style = space
+indent_size = 2
+
+# styling
+[*.{css,sass,scss,styl}]
+indent_style = space
+indent_size = 2
+
+# markup
+[*.{html,pug}]
+indent_style = space
+indent_size = 2
