@@ -1,6 +1,6 @@
 {
   "name": "@spenserblack/configfiles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "These are project-specific config files that are commonly repeated among repositories",
   "main": "index.js",
   "bin": {
