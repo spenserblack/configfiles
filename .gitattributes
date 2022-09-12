@@ -1,1 +1,3 @@
-/configfiles/editorconfig/*.editorconfig linguist-language=EditorConfig linguist-detectable
+/configfiles/editorconfig/*.editorconfig linguist-language=EditorConfig
+/configfiles/npmignore/*.npmignore linguist-language=Ignore-List
+/configfiles/**/* linguist-detectable

@@ -1,0 +1,5 @@
+# Do not publish tests
+**/__tests__/**
+
+# Do not publish files from yarn caches
+**/.yarn
