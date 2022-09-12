@@ -1,0 +1,21 @@
+{
+  "name": "@spenserblack/configfiles",
+  "version": "0.1.0",
+  "description": "These are project-specific config files that are commonly repeated among repositories",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "prepublishOnly": "node ../../scripts/to-json.js > configfiles.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spenserblack/configfiles.git"
+  },
+  "author": "Spenser Black",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spenserblack/configfiles/issues"
+  },
+  "homepage": "https://github.com/spenserblack/configfiles#readme"
+}

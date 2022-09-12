@@ -1,0 +1,20 @@
+{
+  "name": "@spenserblack/configfiles",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "These are project-specific config files that are commonly repeated among repositories",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spenserblack/configfiles.git"
+  },
+  "author": "Spenser Black",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/spenserblack/configfiles/issues"
+  },
+  "homepage": "https://github.com/spenserblack/configfiles#readme",
+  "devDependencies": {}
+}
