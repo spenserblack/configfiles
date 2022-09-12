@@ -1,0 +1,3 @@
+# DESCRIPTION Makes flake8 respect Black's line length
+[flake8]
+max-line-length = 88
