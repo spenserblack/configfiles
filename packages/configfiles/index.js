@@ -1,3 +1,3 @@
-const data = require('./configfiles.json');
+const data = require("./configfiles.json");
 
 module.exports = { data };

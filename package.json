@@ -6,6 +6,10 @@
     "packages/*"
   ],
   "description": "These are project-specific config files that are commonly repeated among repositories",
+  "scripts": {
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spenserblack/configfiles.git"
@@ -16,5 +20,7 @@
     "url": "https://github.com/spenserblack/configfiles/issues"
   },
   "homepage": "https://github.com/spenserblack/configfiles#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
 }
