@@ -23,5 +23,14 @@ curl https://raw.githubusercontent.com/spenserblack/configfiles/main/configfiles
 ```
 
 
+## Licensing
+
+The [config files][configfiles] are licensed under
+[`CC0 1.0 Universal`][cc0-license]. The [NPM packages][npm-packages] have their
+own licenses specified in their corresponding `packages/<package>/LICENSE` files,
+where `<package>` is a folder within the [`packages/`][npm-packages] folder.
+
+[cc0-license]: /LICENSE
 [configfiles]: /configfiles
 [github-gitignore]: https://github.com/github/gitignore
+[npm-packages]: /packages

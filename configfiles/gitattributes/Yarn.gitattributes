@@ -1,5 +1,4 @@
 # DESCRIPTION This sets up yarn's vendored files to not create massive diffs
-
 # Prevents massive diffs caused by these vendored, minified files
 /.yarn/releases/** binary
 /.yarn/plugins/** binary

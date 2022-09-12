@@ -1,4 +1,4 @@
-# DESCRIPTION Prevents npm from publishing tracked files that don't need to be in your package
+# DESCRIPTION Prevents npm from publishing files that are development-only
 # Do not publish tests
 **/__tests__/**
 
