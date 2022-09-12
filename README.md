@@ -22,7 +22,6 @@ echo "" >> .editorconfig # Adding a newline
 curl https://raw.githubusercontent.com/spenserblack/configfiles/main/configfiles/editorconfig/Python.editorconfig >> .editorconfig
 ```
 
-
 ## Licensing
 
 The [config files][configfiles] are licensed under
