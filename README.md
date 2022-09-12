@@ -1,5 +1,7 @@
 # [configfiles]
 
+[![npm](https://img.shields.io/npm/v/@spenserblack/configfiles)](https://www.npmjs.com/package/@spenserblack/configfiles)
+
 These are project-specific config files that are commonly repeated among repositories
 
 This is kind of like [github/gitignore][github-gitignore], but the
@@ -20,6 +22,14 @@ might do this:
 curl https://raw.githubusercontent.com/spenserblack/configfiles/main/configfiles/editorconfig/Default.editorconfig > .editorconfig
 echo "" >> .editorconfig # Adding a newline
 curl https://raw.githubusercontent.com/spenserblack/configfiles/main/configfiles/editorconfig/Python.editorconfig >> .editorconfig
+```
+
+## CLI
+
+```bash
+npm install --global @spenserblack/configfiles
+# or
+yarn global add @spenserblack/configfiles
 ```
 
 ## Licensing
