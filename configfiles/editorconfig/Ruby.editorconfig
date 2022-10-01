@@ -1,3 +1,4 @@
+# DESCRIPTION Sets Ruby files to the recommended indentation style
 [Gemfile,Rakefile,*.{gemspec,rb}]
 indent_style = space
 indent_size = 2
