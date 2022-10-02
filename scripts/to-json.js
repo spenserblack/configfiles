@@ -2,7 +2,7 @@
 // Converts the file structure to a manageable JSON format where config types
 // map to config names and config names map to file contents.
 const { readFile, readdir } = require("fs/promises");
-const { resolve, parse } = require("path");
+const { resolve } = require("path");
 
 const configFilesPath = resolve(__dirname, "../configfiles");
 
