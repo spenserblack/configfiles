@@ -2,7 +2,7 @@
 // Converts the file structure to a manageable JSON format where config types
 // map to config names and config names map to file contents.
 const { readFile, readdir } = require("fs/promises");
-const { resolve, parse } = require("path");
+const { resolve } = require("path");
 
 const configFilesPath = resolve(__dirname, "../configfiles");
 
@@ -13,7 +13,7 @@ async function main() {
       const configFiles = await readdir(resolve(configFilesPath, folder));
       const configData = await Promise.all(
         configFiles.map(async (file) => {
-          const { name } = parse(file);
+          const [name] = file.split(".");
           const data = await readFile(
             resolve(configFilesPath, folder, file),
             "utf-8",
