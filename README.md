@@ -2,6 +2,19 @@
 
 [![npm](https://img.shields.io/npm/v/@spenserblack/configfiles)](https://www.npmjs.com/package/@spenserblack/configfiles)
 
+## :warning: Archive Notice
+
+I originally wrote this because I was constantly copying and pasting things like `.editorconfig`
+files, `.gitattributes` files, etc. from one repository to another. However, I've decided that,
+instead of creating a collection of file snippets in a single repository and making myself and
+other users wait for new releases, it makes much more sense to let users define their own collection
+of snippets. So I made [snippit](https://github.com/spenserblack/snippit), which has a much catchier
+name, and isn't nearly as overdesigned. For me, personally, I find it much more useful, so I'm
+archiving this. Feel free to fork if you stumble on this repo and want to continue its development.
+Reach out to me in your fork's issues if necessary.
+
+******
+
 These are project-specific config files that are commonly repeated among repositories
 
 This is kind of like [github/gitignore][github-gitignore], but the
